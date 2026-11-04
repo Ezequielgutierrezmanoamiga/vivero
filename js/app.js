@@ -6,7 +6,7 @@ const productos = [
   { id: 5, nombre: "Aloe vera", imagen: "Img/aloe vera.jfif", descripcion: "Planta medicinal de fácil cuidado.", precio: 1600, stock: 14 },
   { id: 6, nombre: "Portulaca", imagen: "Img/portulaca grandiflora.jfif", descripcion: "Planta rastrera con flores muy vistosas.", precio: 1800, stock: 50 },
   { id: 7, nombre: "Rosas", imagen: "Img/Rosas.jfif", descripcion: "Clásico rosal de jardín.", precio: 2200, stock: 12 },
-  { id: 8, nombre: "Margaritas", imagen: "Img/Margarita.jfif", descripcion: "Flores silvestres alegres y duraderas.", precio: 1700, stock: 16 },
+  { id: 8, nombre: "Margaritas", imagen: "Img/margarita.jfif", descripcion: "Flores silvestres alegres y duraderas.", precio: 1700, stock: 16 },
   { id: 9, nombre: "Bromelias", imagen: "Img/Bromelia.jfif", descripcion: "Planta tropical de follaje llamativo.", precio: 1300, stock: 40 },
   { id: 10, nombre: "Helecho canguro", imagen: "Img/Helecho canguro.jfif", descripcion: "Helecho de hojas brillantes para sombra.", precio: 1000, stock: 35 }
 ];

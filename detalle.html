@@ -1,12 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Detalle del Producto - Vivero</title>
+    <link rel="stylesheet" href="Css/estilos.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Vivero</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="carrito.html">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="detalle-producto">
+        <img id="imagen" src="" alt="Imagen del producto" width="250">
+        <h2 id="nombre">Cargando producto...</h2>
+        <p id="descripcion"></p>
+        <h3 id="precio">$ 0</h3>
+        <p id="stock">Disponibles: 0</p>
+
+        <div class="controles-cantidad">
+            <button onclick="restar()">-</button>
+            <span id="contador">0</span>
+            <button onclick="sumar()">+</button>
+        </div>
+
+        <button onclick="agregar()">Agregar al carrito</button>
+    </main>
+
     <script src="js/Detalle.js"></script>
 </body>
 </html>
